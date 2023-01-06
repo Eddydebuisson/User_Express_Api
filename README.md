@@ -1,7 +1,7 @@
 
 # Gestion Users Express
 
-Ceci est une api de gestion de Users sous react Express.
+Ceci est une api de gestion de Users.
 
 
 ## Installation
