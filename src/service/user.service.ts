@@ -11,4 +11,8 @@ export default class UserService {
   getAll = (): Promise<User[]> => {
     return this.#repo.getAll();
   };
+
+  getById = (id:number):Promise<User> => {
+    return this.#repo.getById(id);
+  }
 }

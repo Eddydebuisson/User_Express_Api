@@ -13,4 +13,10 @@ export default class UserController {
     res.send(data);
   }
   
+  getById = async (req:Request, res:Response):Promise<void> => {
+    const id = req.params.id
+    const data = await this.service.getById(+id);
+    res.send(data)
+  }
+
 }
