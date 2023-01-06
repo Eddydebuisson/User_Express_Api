@@ -15,4 +15,25 @@ export default class UserService {
   getById = (id:number):Promise<User> => {
     return this.#repo.getById(id);
   }
+
+  delete = (id:number) => {
+    return this.#repo.delete(id);
+  }
+
+  create = (
+    nom: string,
+    prenom: string,
+    date_de_naissance: string,
+    date_inscription: string,
+    nationalite: string
+  ): Promise<User> => {
+    const data = new User(
+      nom,
+      prenom,
+      date_de_naissance,
+      date_inscription,
+      nationalite
+    );
+    return this.#repo.create(data);
+  };
 }

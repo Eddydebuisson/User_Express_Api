@@ -1,33 +1,44 @@
 {
-    "user":[
-        {
-            "id":0,
-            "prenom": "eddy",
-            "nom":"debuisson",
-            "date_de_naissance":"04/03/1991",
-            "date_inscription": "12/12/2012",
-            "nationalite":"chinchilla"
-        },{
-            "id":1,
-            "prenom": "Peebee",
-            "nom":"debuisson",
-            "date_de_naissance":"04/03/2019",
-            "date_inscription": "12/12/2012",
-            "nationalite":"chinchilla"
-        },{
-            "id":2,
-            "prenom": "miah",
-            "nom":"debuisson",
-            "date_de_naissance":"04/03/2020",
-            "date_inscription": "12/12/2012",
-            "nationalite":"chinchilla"
-        },{
-            "id":3,
-            "prenom": "Lamia",
-            "nom":"Lamia",
-            "date_de_naissance":"04/03/2003",
-            "date_inscription": "12/12/2012",
-            "nationalite":"chinchilla"
-        }
-    ]
+  "user": [
+    {
+      "id": 0,
+      "prenom": "eddy",
+      "nom": "debuisson",
+      "date_de_naissance": "04/03/1991",
+      "date_inscription": "12/12/2012",
+      "nationalite": "chinchilla"
+    },
+    {
+      "id": 1,
+      "prenom": "Peebee",
+      "nom": "debuisson",
+      "date_de_naissance": "04/03/2019",
+      "date_inscription": "12/12/2012",
+      "nationalite": "chinchilla"
+    },
+    {
+      "id": 2,
+      "prenom": "miah",
+      "nom": "debuisson",
+      "date_de_naissance": "04/03/2020",
+      "date_inscription": "12/12/2012",
+      "nationalite": "chinchilla"
+    },
+    {
+      "date_de_naissance": "10-10-20",
+      "nationalite": "française",
+      "nom": "babouchka",
+      "prenom": "eliot",
+      "date_inscription": "10-10-10",
+      "id": 3
+    },
+    {
+      "date_de_naissance": "10-10-20",
+      "nationalite": "française",
+      "nom": "babouchka",
+      "prenom": "eliot",
+      "date_inscription": "10-10-10",
+      "id": 4
+    }
+  ]
 }

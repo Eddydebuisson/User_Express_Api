@@ -12,4 +12,12 @@ export default class UserRepository {
     getById = async(id:number):Promise<User> => {
         return axios.get(`${this.#URL}/${id}`).then(res => res.data);
     }
+
+    delete = (id:number) => {
+        return axios.delete(`${this.#URL}/${id}`)
+    }
+
+    create = async(user:User):Promise<User> => {
+        return axios.post(`${this.#URL}`,user).then(res => res.data)
+    }
 }
